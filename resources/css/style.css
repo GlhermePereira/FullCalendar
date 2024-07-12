@@ -1,0 +1,37 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    #calendar {
+        width: 100%;
+        font-size: 12px;
+    }
+    .input-group {
+        flex-direction: column;
+    }
+    .btn-group {
+        flex-direction: column;
+    }
+}
+
+/* Estilos para desktop */
+@media (min-width: 769px) {
+    /* Exemplo de estilos para desktop */
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    #calendar {
+        width: 80%;
+        margin: 0 auto; /* Centraliza o calendário */
+    }
+    .input-group {
+        flex-direction: row;
+    }
+    .btn-group {
+        flex-direction: row;
+    }
+    .card-body{
+        font-size: 20px !important; /* Utilizar !important para garantir que a regra seja aplicada */
+    }
+}
+
